@@ -19,7 +19,7 @@ function App() {
       <div className="landingContent mt-5">
         <div className="mainHeading">
           Simplify <strong>Visitor</strong> and <br />{" "}
-          <strong className="bgCircleImage"> Employee Management</strong> with{" "}
+          <strong className="bgCircleImage mx-3"> Employee Management</strong> with{" "}
           <br /> <strong>Gatekipas</strong>
         </div>
 
@@ -39,7 +39,7 @@ function App() {
         </button>
       </div>
 
-      <div className="tabImageContainer">
+      <div className="tabImageContainer d-flex justify-content-center">
         <img src={tab} alt="Tablet" />
       </div>
 
@@ -57,7 +57,7 @@ function App() {
 
       <Footer />
 
-      <img className="fixedIcon" src="images/icon.svg" />
+      <img className="fixedIcon" src="images/icon.svg" alt=""/>
     </div>
   );
 }

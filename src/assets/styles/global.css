@@ -82,8 +82,8 @@ button{
     justify-content: center;
     position: relative;
     width: 70%;
-    top: -30vh;
-    left: 15%;
+    top: -15rem;
+    /* left: 15%; */
     max-width: 100%; 
     height: auto; 
     display: block;
@@ -246,6 +246,7 @@ input[type=number]{
   top: 88%;
   left: 92%;
   cursor: pointer;
+  z-index: 999999;
 }
 
 .bgImage{
@@ -292,7 +293,8 @@ input[type=number]{
     font-size: 40px;
   }
   .tabImageContainer img{
-    top:-20vh;
+    display: block;
+    top:-10rem;
     z-index: 9999;
 
   }

@@ -1,13 +1,23 @@
-import React, { useState } from "react";
+import React, {  useState } from "react";
 import "../assets/styles/header.css";
 import logo from "../assets/images/logo.svg";
 
 const Header = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
+
+
+  const openDrawer = () => {
+    setIsDrawerOpen(true);
+    document.body.classList.add("no-scroll");  
+  };
+
   const onClose = () => {
     setIsDrawerOpen(false);
+    document.body.classList.remove("no-scroll"); 
   };
+
+  
 
   return (
     <div className="header">
@@ -18,7 +28,7 @@ const Header = () => {
           <div>EN <i className="fa fa-angle-down"></i></div>
           <div>|</div>
           <div>Sign Up</div>
-          <i className="fa fa-bars menu-icon" onClick={() => setIsDrawerOpen(!isDrawerOpen)}></i>
+          <i className="fa fa-bars menu-icon" onClick={() => {setIsDrawerOpen(true);openDrawer()}}></i>
         </section>
       </div>
 
