@@ -19,7 +19,7 @@ function App() {
       <div className="landingContent mt-5">
         <div className="mainHeading">
           Simplify <strong>Visitor</strong> and <br />{" "}
-          <strong className="bgCircleImage mx-3"> Employee Management</strong> with{" "}
+          <strong className="bgCircleImage mx-5"> Employee Management</strong> with{" "}
           <br /> <strong>Gatekipas</strong>
         </div>
 
@@ -40,7 +40,7 @@ function App() {
       </div>
 
       <div className="tabImageContainer d-flex justify-content-center">
-        <img src={tab} alt="Tablet" />
+        <img src={tab} alt="Tablet" style={{width:'70%',zIndex:'999'}} />
       </div>
 
       {/* features */}

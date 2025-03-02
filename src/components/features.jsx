@@ -9,7 +9,7 @@ const Features = () => {
 
   console.log()
   return (
-    <div className='features mt-5'>
+    <div className='features mt-5 pt-5'>
         <div className='globalGreenText text-center'>Features</div>
 
         <article className='questionFeature text-center'>Why Gatekipas?</article>
