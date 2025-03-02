@@ -112,7 +112,7 @@
 }
 
 .faqLowerContainer{
-    height: 35vh;
+    height: auto;
     background-color: #F6FAFA;
     border-radius: 16px;
     margin: 5%;

@@ -293,9 +293,9 @@ input[type=number]{
     font-size: 40px;
   }
   .tabImageContainer img{
-    display: block;
-    top:-10rem;
-    z-index: 9999;
+    /* display: block; */
+    top:1rem;
+    z-index: 999;
 
   }
 

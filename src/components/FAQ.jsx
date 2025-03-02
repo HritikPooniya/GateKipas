@@ -78,7 +78,7 @@ const FAQ = () => {
           })}
       </div>
 
-      <div className="faqLowerContainer text-center mb-5" style={{zIndex:'999999',position:'relative'}}>
+      <div className="faqLowerContainer text-center  mb-5" style={{zIndex:'999999',position:'relative'}}>
         <img className="mt-4" src="images/avatar.svg" alt="" />
 
         <article className="cardHeadings mt-3">
@@ -88,7 +88,7 @@ const FAQ = () => {
       Can’t find the answer you’re looking for? Please chat to our friendly team.
       </article>{" "}
 
-      <button className="mt-3" style={{width:'135px'}}>Ask Question</button>
+      <button className="mt-3 mb-5" style={{width:'135px'}}>Ask Question</button>
 
       </div>
 
