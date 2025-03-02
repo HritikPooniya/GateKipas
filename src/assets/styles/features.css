@@ -1,0 +1,122 @@
+.features{
+    position:relative;
+    top: -30vh;
+    /* text-align: center; */
+    background-color: #Fff;
+    z-index: 99;
+}
+
+.questionFeature{
+    font-size: 36px;
+    font-weight: 500;
+    color: #0E1010;
+}
+
+.contentMain{
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: #566161;
+}
+
+.cardHeading{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0E1010;
+}
+.cardHeadings{
+    font-size: 20px;
+    font-weight: 500;
+    color: #0E1010;
+}
+
+.cardSubHeading{
+    font-size: 16px;
+    font-weight: 400;
+    color: #566161;
+}
+
+.planCard{
+    border: 1px solid #D9DDDD;
+    border-radius: 8px;
+    width: 450px;
+    background-color: #C0C0C014;
+
+}
+
+.planCardHeading{
+    font-size: 22px;
+    font-weight: 700;
+    color: #0E1010;
+
+}
+
+.planCardSubheading{
+    font-size: 16px;
+    font-weight: 400;
+    color: #889596;
+
+
+}
+
+.price{
+    font-size: 48px;
+    font-weight: 600;
+    color: #0E1010;
+}
+.price span{
+    font-size: 16px;
+    font-weight: 300;
+    color: #566161;
+   
+
+}
+.priceCardListItemUpper li{
+    font-size: 16px;
+    font-weight: 500;
+    color: #566161;
+    /* list-style-type: none; */
+}
+
+.priceCardListItem li{
+    font-size: 16px;
+    font-weight: 500;
+    /* color: #566161; */
+    list-style-type: none;
+}
+
+.priceCardListItemDeactive{
+    all: initial;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    color: #A3ADAE;
+}
+
+.des{
+    display: none;
+}
+
+.active-faq{
+    font-size: 16px;
+    font-weight: 400;
+    color: #6E7C7C;
+
+}
+
+.question{
+    font-size: 18px;
+    font-weight: 500;
+    color: #0E1010;
+}
+
+.faqLowerContainer{
+    height: 35vh;
+    background-color: #F6FAFA;
+    border-radius: 16px;
+    margin: 5%;
+    
+}
+
+
