@@ -42,11 +42,11 @@ const Contact = () => {
         </div>
         <div className="col-lg-6">
           <div className="row mb-3">
-            <div className="inputContainer col-6">
+            <div className="inputContainer col-md-6 mt-3">
               <label htmlFor="name">First Name</label>
               <input type="text" placeholder="First Name" />
             </div>
-            <div className="inputContainer col-6">
+            <div className="inputContainer col-md-6 mt-3">
               <label htmlFor="name">Last Name</label>
               <input type="text" placeholder="Last Name" />
             </div>
