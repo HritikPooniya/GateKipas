@@ -26,7 +26,7 @@ const FAQ = () => {
         {faq.length > 0 &&
           faq.map((item, index) => {
             return (
-              <div className="m-auto w-75" key={index}>
+              <div className="m-auto w-75" key={index} style={{zIndex:'999999',position:'relative'}}>
                 <div className="faq-item mb-4">
                   <div
                     className="d-flex justify-content-between align-items-center cursor-pointer"

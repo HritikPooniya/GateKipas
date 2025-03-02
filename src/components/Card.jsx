@@ -8,7 +8,7 @@ const Card = ({val,key}) => {
         <div className='cardHeading'>{val.heading}</div>
         <div className='cardSubHeading my-3'>{val.subHeading}</div>
 
-        <img src={val.imageUrl} alt='' style={{objectFit:'contain',display:'block'}}/>
+        <img src={val.imageUrl} alt='' style={{display:'block',width:'100%'}}/>
 
         <div className='globalGreenText my-3'>Learn More <img src = {arrow} alt=''/></div>
     </div>

@@ -19,13 +19,13 @@ const Pricing = () => {
       <div className="d-flex flex-wrap gap-5 mt-5 justify-content-center">
         <div className="planCard mx-3" style={{zIndex:'99'}}>
           <div className="row d-flex align-items-center px-4 mt-3">
-            <div className="col-7">
+            <div className="col-6">
               <div className="planCardHeading">Basic Plan</div>
               <div className="planCardSubheading">
                 For Small Teams & Offices
               </div>
             </div>
-            <div className="col-5 price d-flex align-items-center">
+            <div className="col-6 price d-flex align-items-center">
               $20 <span className="ms-2">/Month</span>
             </div>
           </div>
@@ -67,13 +67,13 @@ const Pricing = () => {
         </div>
         <div className="planCard mx-3" style={{zIndex:'99'}}>
           <div className="row d-flex align-items-center px-4 mt-3">
-            <div className="col-7">
+            <div className="col-6">
               <div className="planCardHeading">Standard Plan</div>
               <div className="planCardSubheading">
               Best for Growing Businesses
               </div>
             </div>
-            <div className="col-5 price d-flex align-items-center">
+            <div className="col-6 price d-flex align-items-center">
               $50 <span className="ms-2">/Month</span>
             </div>
           </div>

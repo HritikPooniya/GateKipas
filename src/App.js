@@ -12,9 +12,9 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App w-100">
-      {/* <img className="img" src={rightLine} style={{right:'0',left:'15%',objectFit:'contain'}} alt="" /> */}
+      <img className="img" src={rightLine} style={{right:'0',left:'20%',overflow:'hidden',width:'80%'}} alt="" />
       <Header />
-      {/* <img className="img" src={leftLine} alt="" style={{objectFit:'contain'}}/> */}
+      <img className="img" src={leftLine} alt="" style={{objectFit:'contain',width:'80%'}}/>
 
       <div className="landingContent mt-5">
         <div className="mainHeading">
@@ -57,7 +57,7 @@ function App() {
 
       <Footer />
 
-      {/* <img className="fixedIcon" src="images/icon.svg" /> */}
+      <img className="fixedIcon" src="images/icon.svg" />
     </div>
   );
 }
